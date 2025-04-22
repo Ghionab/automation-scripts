@@ -18,7 +18,7 @@ WebDriverWait(driver, 2).until(
 
 input_element=driver.find_element(By.CLASS_NAME,"gLFyf")
 input_element.clear()
-input_element.send_keys("Tech with Tim", Keys.ENTER)
+input_element.send_keys("Selenium", Keys.ENTER)
 
 link=driver.find_element(By.PARTIAL_LINK_TEXT, "Tech With Tim")
 link.click()
