@@ -12,4 +12,5 @@ def driver():
     driver=webdriver.Chrome(service=service, options=chrome_options)
     driver.get("https://finance.yahoo.com/quote/MSFT/history/?filter=history&period1=1577361242&period2=1735213821")
     return driver
- driver=driver()
+    
+driver()
