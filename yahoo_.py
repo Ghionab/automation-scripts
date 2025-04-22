@@ -15,6 +15,6 @@ headers = {
 
 response= requests.get(url, headers=headers)
 
-with open("yaho3.csv","wb") as file:
+with open("yaho.csv","wb") as file:
     file.write(response.content)
 print("200")
