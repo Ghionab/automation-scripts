@@ -12,7 +12,7 @@ driver=webdriver.Chrome(service=service)
 
 driver.get("https://google.com")
 
-WebDriverWait(driver, 5).until( 
+WebDriverWait(driver, 2).until( 
     EC.presence_of_element_located((By.CLASS_NAME, "gLFyf"))
     )
 
