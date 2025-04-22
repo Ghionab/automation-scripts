@@ -13,5 +13,5 @@ def driver():
     driver.get("https://finance.yahoo.com/quote/MSFT/history/?filter=history&period1=1577361242&period2=1735213821")
     return driver
 
-def main():
+
     driver=driver()
